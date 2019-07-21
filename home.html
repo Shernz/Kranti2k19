@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kranti2k19</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="container container-fluid"> -->
+        <div class="image-responsive" id="image">
+            <img src="img/logo-edited.jpg" alt="logo" class="hover">
+            <h4 class="text">Welcome to Kranti2k19!!</h4>
+            <!-- <div class="nav">
+                <i class="fa fa-bars" aria-hidden="true" onclick="display()"></i>
+                <div id="nav">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#events">EVENTS</a></li>
+                        <li><a href="#register">REGISTER</a></li>
+                        <li><a href="#contact">CONTACT US</a></li>
+                      </ul>
+                 </div>
+            </div> -->
+        </div>
+
+</body>
+<script>
+    function move(){
+        var time = 1;
+        if (time  == 1){
+            document.getElementById("image").style.textAlign = "left";
+        }
+        else{
+            document.getElementById("image").style.textAlign = "center";
+        }
+    }
+    function display(){
+        var times = 0;
+        if (times % 2 === 0){
+            document.getElementById("nav").style.width = "300px";
+        }
+    }
+</script>
+</html>
